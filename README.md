@@ -30,6 +30,3 @@ This assignment improves an overfitting convolutional neural network by enhancin
 
 This assignment focuses on classifying plant types from image data. It includes preprocessing images, building a convolutional neural network, training the model, and evaluating its performance on unseen plant images.
 
----
-
-Each notebook follows a structured format with predefined cells for implementation to ensure compatibility with automated grading.
