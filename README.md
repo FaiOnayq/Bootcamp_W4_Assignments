@@ -30,3 +30,18 @@ This assignment improves an overfitting convolutional neural network by enhancin
 
 This assignment focuses on classifying plant types from image data. It includes preprocessing images, building a convolutional neural network, training the model, and evaluating its performance on unseen plant images.
 
+## Project: Saudi License Plate Detection and Recognition
+**Notebook:** car_plates.ipynb
+### Overview
+- YOLO model trained for **license plate detection localization (cropping)**
+- YOLO model trained for **plate character recognition** with **27 classes** (numbers + letters)
+- **PaddleOCR** used to to try character recognition
+- Final pipeline performs **end-to-end inference on a single image**
+- Outputs results in **Arabic and Latin letters**
+
+### How to Use
+1. Update the paths to:
+   - Plate detection YOLO model
+   - Character recognition YOLO model
+   - Input image
+2. Run the notebook pipeline cell to get inference results
