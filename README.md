@@ -45,3 +45,4 @@ This assignment focuses on classifying plant types from image data. It includes 
    - Character recognition YOLO model
    - Input image
 2. Run the notebook pipeline cell to get inference results
+   note: the YOLO character recognition may have weak results due to the bad labeling on the training dataset.  
